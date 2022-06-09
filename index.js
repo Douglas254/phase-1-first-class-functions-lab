@@ -41,5 +41,9 @@ function fareTripler(fare) {
   return fare * 3;
 }
 
+/*
+returns the first two drivers when passed returnFirstTwoDrivers() as the second argument
+returns the last two drivers when passed returnLastTwoDrivers() as the second argument
+*/
 const selectDifferentDrivers = (arrayOfDrivers, returnedDrivers) =>
   returnedDrivers(arrayOfDrivers);
